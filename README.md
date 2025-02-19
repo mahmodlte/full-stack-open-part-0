@@ -2,8 +2,8 @@
 sequenceDiagram
     participant browser
     participant server
-    browser->> User:enters note in the input field
-    browser->> User:clicks Save
+    browser->> browser:enters note in the input field
+    browser->> browser:clicks Save
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
     activate server
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
