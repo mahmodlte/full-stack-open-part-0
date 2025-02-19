@@ -1,1 +1,6 @@
-# full-stack-open-part-0
+```mermid
+sequenceDiagram
+    participant browser
+    participant server
+
+```
